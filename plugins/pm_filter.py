@@ -156,14 +156,14 @@ async def next_page(bot, query):
                 off_set = offset - 10
             if n_offset == 0:
                 btn.append(
-                    [InlineKeyboardButton("𝐁𝐀𝐂𝐊", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"{math.ceil(int(offset)/10)+1} / {math.ceil(total/10)}", callback_data="pages")]
+                    [InlineKeyboardButton("《 Bᴀᴄᴋ", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"{math.ceil(int(offset)/10)+1} / {math.ceil(total/10)}", callback_data="pages")]
                 )
             elif off_set is None:
                 btn.append([InlineKeyboardButton("𝐏𝐀𝐆𝐄", callback_data="pages"), InlineKeyboardButton(f"{math.ceil(int(offset)/10)+1} / {math.ceil(total/10)}", callback_data="pages"), InlineKeyboardButton("𝐍𝐄𝐗𝐓", callback_data=f"next_{req}_{key}_{n_offset}")])
             else:
                 btn.append(
                     [
-                        InlineKeyboardButton("𝐁𝐀𝐂𝐊", callback_data=f"next_{req}_{key}_{off_set}"),
+                        InlineKeyboardButton("《 Bᴀᴄᴋ", callback_data=f"next_{req}_{key}_{off_set}"),
                         InlineKeyboardButton(f"{math.ceil(int(offset)/10)+1} / {math.ceil(total/10)}", callback_data="pages"),
                         InlineKeyboardButton("𝐍𝐄𝐗𝐓", callback_data=f"next_{req}_{key}_{n_offset}")
                     ],
@@ -177,14 +177,14 @@ async def next_page(bot, query):
                 off_set = offset - int(MAX_B_TN)
             if n_offset == 0:
                 btn.append(
-                    [InlineKeyboardButton("𝐁𝐀𝐂𝐊", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"{math.ceil(int(offset)/int(MAX_B_TN))+1} / {math.ceil(total/int(MAX_B_TN))}", callback_data="pages")]
+                    [InlineKeyboardButton("《 Bᴀᴄᴋ", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"{math.ceil(int(offset)/int(MAX_B_TN))+1} / {math.ceil(total/int(MAX_B_TN))}", callback_data="pages")]
                 )
             elif off_set is None:
                 btn.append([InlineKeyboardButton("𝐏𝐀𝐆𝐄", callback_data="pages"), InlineKeyboardButton(f"{math.ceil(int(offset)/int(MAX_B_TN))+1} / {math.ceil(total/int(MAX_B_TN))}", callback_data="pages"), InlineKeyboardButton("𝐍𝐄𝐗𝐓 ➪", callback_data=f"next_{req}_{key}_{n_offset}")])
             else:
                 btn.append(
                     [
-                        InlineKeyboardButton("𝐁𝐀𝐂𝐊", callback_data=f"next_{req}_{key}_{off_set}"),
+                        InlineKeyboardButton("《 Bᴀᴄᴋ", callback_data=f"next_{req}_{key}_{off_set}"),
                         InlineKeyboardButton(f"{math.ceil(int(offset)/int(MAX_B_TN))+1} / {math.ceil(total/int(MAX_B_TN))}", callback_data="pages"),
                         InlineKeyboardButton("𝐍𝐄𝐗𝐓", callback_data=f"next_{req}_{key}_{n_offset}")
                     ],
@@ -201,14 +201,14 @@ async def next_page(bot, query):
                 off_set = offset - 10
             if n_offset == 0:
                 btn.append(
-                    [InlineKeyboardButton("𝐁𝐀𝐂𝐊", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"{math.ceil(int(offset)/10)+1} / {math.ceil(total/10)}", callback_data="pages")]
+                    [InlineKeyboardButton("《 Bᴀᴄᴋ", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"{math.ceil(int(offset)/10)+1} / {math.ceil(total/10)}", callback_data="pages")]
                 )
             elif off_set is None:
                 btn.append([InlineKeyboardButton("𝐏𝐀𝐆𝐄", callback_data="pages"), InlineKeyboardButton(f"{math.ceil(int(offset)/10)+1} / {math.ceil(total/10)}", callback_data="pages"), InlineKeyboardButton("𝐍𝐄𝐗𝐓", callback_data=f"next_{req}_{key}_{n_offset}")])
             else:
                 btn.append(
                     [
-                        InlineKeyboardButton("𝐁𝐀𝐂𝐊", callback_data=f"next_{req}_{key}_{off_set}"),
+                        InlineKeyboardButton("《 Bᴀᴄᴋ", callback_data=f"next_{req}_{key}_{off_set}"),
                         InlineKeyboardButton(f"{math.ceil(int(offset)/10)+1} / {math.ceil(total/10)}", callback_data="pages"),
                         InlineKeyboardButton("𝐍𝐄𝐗𝐓", callback_data=f"next_{req}_{key}_{n_offset}")
                     ],
@@ -222,14 +222,14 @@ async def next_page(bot, query):
                 off_set = offset - int(MAX_B_TN)
             if n_offset == 0:
                 btn.append(
-                    [InlineKeyboardButton("𝐁𝐀𝐂𝐊", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"{math.ceil(int(offset)/int(MAX_B_TN))+1} / {math.ceil(total/int(MAX_B_TN))}", callback_data="pages")]
+                    [InlineKeyboardButton("《 Bᴀᴄᴋ", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"{math.ceil(int(offset)/int(MAX_B_TN))+1} / {math.ceil(total/int(MAX_B_TN))}", callback_data="pages")]
                 )
             elif off_set is None:
                 btn.append([InlineKeyboardButton("𝐏𝐀𝐆𝐄", callback_data="pages"), InlineKeyboardButton(f"{math.ceil(int(offset)/int(MAX_B_TN))+1} / {math.ceil(total/int(MAX_B_TN))}", callback_data="pages"), InlineKeyboardButton("𝐍𝐄𝐗𝐓", callback_data=f"next_{req}_{key}_{n_offset}")])
             else:
                 btn.append(
                     [
-                        InlineKeyboardButton("𝐁𝐀𝐂𝐊", callback_data=f"next_{req}_{key}_{off_set}"),
+                        InlineKeyboardButton("《 Bᴀᴄᴋ", callback_data=f"next_{req}_{key}_{off_set}"),
                         InlineKeyboardButton(f"{math.ceil(int(offset)/int(MAX_B_TN))+1} / {math.ceil(total/int(MAX_B_TN))}", callback_data="pages"),
                         InlineKeyboardButton("𝐍𝐄𝐗𝐓", callback_data=f"next_{req}_{key}_{n_offset}")
                     ],
@@ -923,8 +923,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],[                       
                     InlineKeyboardButton("𝙈𝙁 𝙁𝙄𝙇𝙈 𝙐𝙋𝘿𝘼𝙏𝙀𝙎", url="https://t.me/+dqquafhU0ig5YzFl")
                 ],[ 
-                    InlineKeyboardButton(" 𝘼𝘽𝙊𝙐𝙏 ", callback_data="about"), 
-                    InlineKeyboardButton("𝙃𝙀𝙇𝙋", callback_data="help")
+                    InlineKeyboardButton(" ⚡️𝘼𝘽𝙊𝙐𝙏⚡️ ", callback_data="about"), 
+                    InlineKeyboardButton("⚙️ 𝙃𝙀𝙇𝙋 ⚙️", callback_data="help")
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
