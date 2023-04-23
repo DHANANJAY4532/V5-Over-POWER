@@ -6,7 +6,7 @@ class script(object):
     ABOUT_TXT = """<b>᚛›𝐍𝐚𝐦𝐞: 𝐊𝐫𝐢𝐭𝐡𝐢
 ᚛›𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞: 𝐏𝐲𝐭𝐡𝐨𝐧 𝟑.𝟖.𝟏𝟔
 ᚛›𝐋𝐢𝐛𝐫𝐚𝐫𝐲: <a href='https://github.com/pyrogram/pyrogram'>𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦 𝟐.𝟎.𝟏𝟎𝟒</a></b>
-᚛›𝐕𝐞𝐫𝐬𝐢𝐨𝐧: <a href='t.me/5600316354'>𝟒.𝟔𝟐</a></b>
+᚛›𝐕𝐞𝐫𝐬𝐢𝐨𝐧: (tg://user?id=1697396784)
 ᚛›𝐒𝐞𝐫𝐯𝐞𝐫: <a href='https://railway.app'>𝐑𝐚𝐢𝐥𝐰𝐚𝐲</a>
 ᚛›𝐃𝐚𝐭𝐚𝐁𝐚𝐬𝐞: <a href='https://www.mongodb.com'>𝐌𝐨𝐧𝐠𝐨𝐃𝐁</a>
 ᚛›𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫: <a href='t.me/LOOk_Me_FrOm_EarTH'>ʝƲρ𝖏ϯ𝛆Ɽ 🇮🇳™</a></b>"""
