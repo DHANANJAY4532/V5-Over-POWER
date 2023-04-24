@@ -4,7 +4,7 @@ class script(object):
     HELP_TXT = """👋ʜɪ,{} \n ᴛʜᴇsᴇ ᴀʀᴇ ᴍʏ ʜᴇʟᴘ ғᴇᴀᴛᴜʀᴇs.."""
 
     ABOUT_TXT = """<b>᚛›𝐍𝐚𝐦𝐞: 𝐊𝐫𝐢𝐭𝐡𝐢
-᚛›𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞: <a href='https://www.python.org/'>𝐏𝐲𝐭𝐡𝐨𝐧 𝟑.𝟖.𝟏𝟔</a></b>
+᚛›𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞: <a href='https://www.python.org/'>𝐏𝐲𝐭𝐡𝐨𝐧 𝟑.𝟖.𝟏𝟔</a>
 ᚛›𝐋𝐢𝐛𝐫𝐚𝐫𝐲: <a href='https://github.com/pyrogram/pyrogram'>𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦 𝟐.𝟎.𝟏𝟎𝟒</a>
 ᚛›𝐕𝐞𝐫𝐬𝐢𝐨𝐧: 𝟒.𝟔𝟏 
 ᚛›𝐒𝐞𝐫𝐯𝐞𝐫: <a href='https://railway.app'>𝐑𝐚𝐢𝐥𝐰𝐚𝐲</a>
