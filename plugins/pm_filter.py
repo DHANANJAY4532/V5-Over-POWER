@@ -1300,18 +1300,17 @@ async def auto_filter(client, msg, spoll=False):
                     url=await get_shortlink(message.chat.id, f"https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}")
                 ),
             ]
-    else:
-        if settings["button"]:
-            btn = [
-                [
-                    InlineKeyboardButton(
-                        text=f"[{get_size(file.file_size)}] {file.file_name}", callback_data=f'{pre}#{file.file_id}'
-                    ),
-                ]
-                for file in files
+    elif settings["button"] and not ENABLE_SHORTLINK:
+        btn = [
+            [
+                InlineKeyboardButton(
+                    text=f"[{get_size(file.file_size)}] {file.file_name}", callback_data=f'{pre}#{file.file_id}'
+                ),
             ]
-        else:
-            btn = [
+            for file in files
+        ]
+    else:
+         btn = [
                 [
                     InlineKeyboardButton(
                         text=f"{file.file_name}",
