@@ -6,8 +6,7 @@ COPY requirements.txt /requirements.txt
 
 RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-WORKDIR /V5-Over-POWER
-
-COPY . .
-
-CMD ["python3", "bot.py"]
+RUN mkdir /V5OverPOWER
+WORKDIR /V5OverPOWER
+COPY start.sh /start.sh
+CMD ["/bin/bash", "/start.sh"]
