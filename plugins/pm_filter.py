@@ -567,13 +567,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
 
     elif query.data.startswith("send_fall"):
-        temp_var, ident, offset = query.data.split("#")
-        search = temp.KEYWORD.get(query.from_user.id)
-        if not search:
-            await query.answer(script.OLD_ALRT_TXT.format(query.from_user.first_name),show_alert=True)
-            return
-        files, n_offset, total = await get_search_results(query.message.chat.id, search, offset=int(offset), filter=True)
-        temp.SEND_ALL_TEMP[query.from_user.id] = files
+        temp_var, ident, offset, userid = query.data.split("#")
+        if int(userid) not in [query.from_user.id, 0]:
+            return await query.answer(script.ALRT_TXT.format(query.from_user.first_name), show_alert=True)
+        files = temp.SEND_ALL_TEMP.get(query.from_user.id)
         is_over = await send_all(client, query.from_user.id, files, ident)
         if is_over == 'done':
             return await query.answer(f"Hᴇʏ {query.from_user.first_name}, Aʟʟ ғɪʟᴇs ᴏɴ ᴛʜɪs ᴘᴀɢᴇ ʜᴀs ʙᴇᴇɴ sᴇɴᴛ sᴜᴄᴄᴇssғᴜʟʟʏ ᴛᴏ ʏᴏᴜʀ PM !", show_alert=True)
